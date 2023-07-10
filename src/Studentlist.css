@@ -1,0 +1,213 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 10px;
+}
+tr{
+    border: 1px solid black;
+}
+td{
+   text-align: center;
+   border: 1px solid black;
+   
+   white-space: none;
+   padding-bottom: 0;
+   position: relative;
+}
+td p{
+    width: 100%;
+    height: 30px;
+    
+    display: flex;
+    
+    align-items: stretch;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+td p:nth-last-child(1){
+    border-bottom: none;
+}
+
+.class-container{
+    display: table;
+    height: fit-content;
+    position: relative;
+    top: 50px;
+    padding: 10px;
+    margin: auto;
+    width: 100%;
+    border: none;
+    box-shadow: 1px 1px 5px gray;
+}
+.class-details{
+    margin: auto;
+    width: 100%;
+    
+    height: fit-content;
+    
+}
+.student-name{
+    height: 20px;
+}
+table{
+    width: 100%;
+}
+thead tr{
+    width: 100%;
+    border: 1px solid black;
+}
+thead th{
+    width: calc(100%/4);
+    border: 1px solid black;
+}
+tbody tr{
+    border: 1px solid black;
+}
+
+.class-options{
+    height: 40px;
+}
+.add-student-container{
+    background-color: 100%;
+    border: 1px solid rgb(2, 2, 251);
+    padding: 20px 15px;
+    margin-bottom: 15px;
+}
+.add-student-input{
+    width: 100%;
+}
+.add-student-link button{
+     
+     text-decoration: none;
+     background: none;
+     border: none;
+     color: black;
+     font-weight: 550;
+     font-size: 14px;
+     padding: 5px 0px;
+}
+.add-student-link button:hover{
+    text-decoration: underline;
+}
+.add-student-input{
+    display: flex;
+    flex-direction: column;
+}
+.add-student-input input{
+    width: 15%;
+    margin: 10px 0px;
+    padding: 5px;
+    outline: none;
+}
+.add-student-input button{
+    width: 15%;
+    padding: 5px 0px;
+}
+.no-display{
+    display: none;
+}
+.subject-icon{
+    font-size: 12px;
+    margin-top: 2px;
+    margin-left: 5px;
+}
+.input-select{
+    width: 218px;
+    padding: 5px 0px;
+    margin-top: 10px;
+}
+.pen-to-square{
+    position: relative;
+    left: 42%;
+    margin-top: 2px;
+}
+.pen-to-square-sub{
+    position: absolute;
+    right: 2%;
+}
+.subject-options{
+    position: absolute;
+    
+}
+.select-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.select-buttons{
+    display: flex;
+    width: 20%;
+    justify-content: space-around;
+}
+.select-buttons button{
+    width: 150px;
+    height: 30px;
+    margin-right: 20px;
+}
+.input-teacher{
+    width: 150px;
+    height: 30px;
+}
+.teacher-name{
+    display: flex;
+   
+    align-items: center;
+}
+.teacher-options{
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 1%;
+}
+.edit-btn{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.trash-in{
+    position: absolute;
+    right: 90%;
+}
+.fa-trash{
+    position: absolute;
+    left: 3%;
+    top: 5%;
+}
+.trash-in{
+    padding: 10px;
+    padding-left: 10px;
+    
+}
+.trash-icon{
+     font-size: 15px;
+     margin-left: 2px;
+     margin-top: 1px;
+}
+.input-select{
+    margin-bottom: 10px;
+}
+.sort-input{
+    padding: 5px 1px;
+    border: 1px solid rgb(88, 88, 222);
+    box-shadow: 5px 5px 15px solid gray;
+    outline: none;
+    border-radius: 5px;
+}
+.class-name{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.class-name-span{
+    color: rgb(88, 88, 222);
+}
+.fa-angle-down{
+    width: 10px;
+    font-size: 12px;
+    margin-left: 2px;
+    margin-bottom: 1px;
+}
+.add-student-link:active .fa-angle-down{
+    rotate: -180deg;
+    
+}
